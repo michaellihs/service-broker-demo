@@ -8,6 +8,29 @@ It provides the following solutions:
 * Dispatching of multiple services (service definitions) by the very same broker
 
 
+Building the Broker
+-------------------
+
+Build the service broker application with
+
+    ./gradlew clean build
+
+
+Running the Broker
+------------------
+
+Run the service broker application with
+
+    ./gradlew clean bootRun
+
+
+Testing the Broker
+------------------
+
+Run the tests with
+
+    ./gradlew clean test -i
+
 References
 ==========
 
